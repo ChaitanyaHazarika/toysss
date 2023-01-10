@@ -1,5 +1,5 @@
-if (localStorage.getItem("LoginStatus") == "Yes") {
-  window.location = "home.html" 
+if (localStorage.getItem("LoginStatus")== "Yes") {
+  window.location= "home.html"
 }
 //variables
 var username= ""

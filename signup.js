@@ -36,7 +36,8 @@ function signup() {
             localStorage.setItem("LoginStatus", "Yes")
             localStorage.setItem("username", username)
             localStorage.setItem("phonenumber", phone_number)
-           window.location= "home.html"
+            window.location= "home.html"
+           
         }else{
             //alert1
             alert("Please fill out all the informatation NOTE: Password should be more than 4 characters")
