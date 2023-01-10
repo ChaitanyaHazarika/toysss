@@ -37,8 +37,8 @@ function signup() {
             localStorage.setItem("username", username)
             localStorage.setItem("phonenumber", phone_number)
             setTimeout(() => {
-              
-            }, 300);
+                window.location= "home.html"
+            }, 2000);
             
            
         }else{
