@@ -37,7 +37,7 @@ function signup() {
             localStorage.setItem("username", username)
             localStorage.setItem("phonenumber", phone_number)
             setTimeout(() => {
-                window.location= "home.html"  
+              
             }, 300);
             
            
