@@ -1,0 +1,37 @@
+body{
+    background-image: url("cool-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.login_div{
+    background-color: white;
+    margin-top: 200px;
+    width:  35%;
+    height: 550px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#Loginbtn, #SignUpbtn{
+    margin-top: 30px;
+    width: 90%;
+    
+}
+h3{
+    font-family: roboto;
+}
+h1{
+    font-family: MoglenDemo;
+    font-weight: bold;
+    
+    color: white;
+}
+@font-face {
+    font-family: Bloomi;
+    src: url("Bloomi\ Almond\ \ Regular.ttf");
+}
+@font-face {
+    font-family: MoglenDemo;
+    src: url("Moglan_DEMO.ttf");
+}

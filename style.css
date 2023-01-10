@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+}
+.login_div{
+    margin-top: 200px;
+    width:  35%;
+    height: 400px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#Loginbtn, #SignUpbtn{
+    margin-top: 30px;
+    width: 90%;
+    
+}
+h3{
+    font-family:sans-serif;
+    color: white;
+}
+h1{
+    font-family: BIGJOHN;
+    font-weight: bold;
+    
+    color: white;
+}
+@font-face {
+    font-family: Bloomi;
+    src: url("Bloomi\ Almond\ \ Regular.ttf");
+}
+@font-face {
+    font-family: BIGJOHN;
+    src: url(BIG\ JOHN.otf);
+}
+#note{
+    color: white;
+}
+#forgotpass{
+    color: white;
+}
