@@ -36,7 +36,10 @@ function signup() {
             localStorage.setItem("LoginStatus", "Yes")
             localStorage.setItem("username", username)
             localStorage.setItem("phonenumber", phone_number)
-            window.location= "home.html"
+            setTimeout(() => {
+                window.location= "home.html"  
+            }, 300);
+            
            
         }else{
             //alert1
