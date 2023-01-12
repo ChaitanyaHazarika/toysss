@@ -38,3 +38,12 @@ h1{
 #forgotpass{
     color: white;
 }
+span{
+    position: absolute;
+    top: 400px;
+}
+@media(max-width: 800px){
+    .login_div{
+        width: 100%;
+    }
+}

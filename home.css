@@ -221,12 +221,15 @@
     margin-right:0;
     font-weight:600;
   }
+  .footer{
+    width: 100%;
+  }
 }
 #mai, #custom{
 	cursor: pointer;
 
 }
-#mai, #custom: hover{
+#mai, #custom :hover{
 	background-color: #3366cc;
 }
 
@@ -265,7 +268,37 @@
   box-shadow: 10px 10px 40px grey;
   margin-top: 10px;
   margin-left: 20px;
+} 
+#account{
+ margin-left: 10px;
+ margin-top: 20px;
 }
-hr{
-  width: 500px;
+@media(max-width: 540px){
+  .banner{
+    display: none;
+  }
+  .items{
+    width: 100%;
+    margin-left: 0px;
+  }
+  .line2{
+    display: none;
+  }
+}
+@media(max-width: 1000px){
+  .items{
+    margin-left: 0px;
+    width: 100%;
+
+  }
+  #title{
+    margin-right: 0px;
+    margin-left: 20px;
+  }
+}
+@media(max-width:1500px){
+  .items{
+    margin-left: 0px;
+    width: 100%;
+  }
 }
