@@ -15,32 +15,23 @@ function mail(){
 function customercare() {
 	alert("CustomerCare number: +91 9871366468")
 }
-
-
+e= []
 
 function addtocart(id) {
-if (localStorage.getItem('items')== null) {
-  e=[]
-  item_name= document.getElementById(id).value; 
-  console.log(id)
-  console.log(item_name)
-  e.push(item_name)
-  localStorage.setItem("items", JSON.stringify(e))
-  setTimeout(function() {
-    window.location= "cart.html"
-  }, 10);
-}
-else{
-  item_name= document.getElementById(id).value; 
-  console.log(id)
-  console.log(item_name)
-  e.push(item_name)
-  localStorage.setItem("items", JSON.stringify(e))
-  setTimeout(function() {
-    window.location= "cart.html"
-  }, 10);
-}
+  if (e.length == 0 && localStorage.getItem('items') != "")  {
+   e = JSON.parse(localStorage.getItem('items')) 
+  }
   
+  if (e.length >= 5) {
+    alert("Sorry, Cart is full ( limit: 5 items)")
+  }else{
+    alert("Added to cart :)")
+ 
+    item= document.getElementById(id).value;
+    e.push(item)
+    localStorage.setItem('items',JSON.stringify(e) )
+    console.log(e);
+  }
  
 }
 const observer = new IntersectionObserver((entries) => {

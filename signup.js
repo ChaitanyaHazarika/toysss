@@ -21,9 +21,9 @@ function signup() {
     if (document.getElementById("createpassword").value == document.getElementById("Confirmpassword").value) {
         password= document.getElementById("createpassword").value;
         //other criteria
-        if (password.length >= 4 && document.getElementById("name").value != "" && document.getElementById("phonenumber").value != "" && document.getElementById("createpassword").value != "") {
+        if (password.length >= 4 && document.getElementById("name").value != "" && document.getElementById("createpassword").value != "") {
             //setting value
-            phone_number = document.getElementById("phonenumber").value;
+            phone_number = localStorage.getItem("phonenumber")
             password = document.getElementById("createpassword").value;
             username = document.getElementById("name").value;
             //making account 

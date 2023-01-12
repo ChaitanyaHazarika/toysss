@@ -1,3 +1,5 @@
+localStorage.setItem('items', "")
+
 if (localStorage.getItem("LoginStatus")== "Yes") {
   window.location= "home.html"
 }
@@ -20,7 +22,7 @@ firebase.initializeApp(firebaseConfig);
 
 //signup
 function signUp() {
-    window.location = "signup.html"
+    window.location = "phoneverification.html"
 }
 
 //login
