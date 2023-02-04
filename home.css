@@ -40,7 +40,6 @@
 	margin-left: 400px;
 	bottom: 10px;
 	width: 60%;
-	left: 450px;
 	padding: 20px;
 	box-shadow: 10px 10px 50px grey;
 
@@ -248,7 +247,7 @@
 }
 @font-face {
   font-family: Hergon;
-  src: url(HergonGrotesk-Medium.otf);
+  src: url("HergonGrotesk-Medium.otf");
 }
 .heading{
   font-size: 50px;
@@ -302,3 +301,7 @@
     width: 100%;
   }
 }
+#cart{
+  margin-left: 10px;
+  margin-top: 20px;
+ }
